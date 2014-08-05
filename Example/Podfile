@@ -1,0 +1,10 @@
+target 'TheCatAPI', :exclusive => true do
+  pod "TheCatAPI", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "TheCatAPI", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
