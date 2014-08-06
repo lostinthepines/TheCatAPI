@@ -5,11 +5,33 @@
 [![License](https://img.shields.io/cocoapods/l/TheCatAPI.svg?style=flat)](http://cocoadocs.org/docsets/TheCatAPI)
 [![Platform](https://img.shields.io/cocoapods/p/TheCatAPI.svg?style=flat)](http://cocoadocs.org/docsets/TheCatAPI)
 
+      ∆    ∆
+    >( - . - )<
+     (  u u  ) "\\
+     ( )____( )=//
+
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+**For a fresh, kitty-populated UIImageView**
 
-## Requirements
+	// A new UIImageView populated with a cat image
+	UIImageView *happyImageView = [UIImageView imageViewWithCatImage];
+
+  	// A new UIImageView populated with a cat image from a certain category
+  	UIImageView *catInABox = [UIImageView imageViewWithCatImageWithCategory:CATegoryBoxes];
+
+**For making existing UIImageViews much more enjoyable**
+
+	UIImageView *sadImageView = [[UIImageView alloc] init];
+
+  	// Populate an existing UIImageView with a cat image
+  	[sadImageView useCatImage];
+
+  	// Populate an existing UIImageView with a cat image from a certain category
+  	[sadImageView useCatImageWithCategory:CATegoryHats];
+
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
 

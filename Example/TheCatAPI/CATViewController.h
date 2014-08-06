@@ -10,4 +10,6 @@
 
 @interface CATViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UIImageView *imageView;
+
 @end

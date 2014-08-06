@@ -7,23 +7,22 @@
 //
 
 #import "CATViewController.h"
-
-@interface CATViewController ()
-
-@end
+#import <TheCatAPI/UIImageView+TheCatAPI.h>
 
 @implementation CATViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.imageView.userInteractionEnabled = YES;
+    [self.imageView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(refresh)]];
+    [self.imageView useCatImage];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)refresh
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self.imageView useCatImageWithCategory:CATegoryCaturday];
 }
 
 @end
