@@ -1,6 +1,5 @@
 # TheCatAPI
 
-[![CI Status](http://img.shields.io/travis/Nate Bailey/TheCatAPI.svg?style=flat)](https://travis-ci.org/Nate Bailey/TheCatAPI)
 [![Version](https://img.shields.io/cocoapods/v/TheCatAPI.svg?style=flat)](http://cocoadocs.org/docsets/TheCatAPI)
 [![License](https://img.shields.io/cocoapods/l/TheCatAPI.svg?style=flat)](http://cocoadocs.org/docsets/TheCatAPI)
 [![Platform](https://img.shields.io/cocoapods/p/TheCatAPI.svg?style=flat)](http://cocoadocs.org/docsets/TheCatAPI)
